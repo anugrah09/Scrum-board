@@ -1,0 +1,59 @@
+body{
+    background: #4e4d17;
+    font-family: ubuntu;
+}
+.form{
+    margin: 20px;
+    background-color: gray;
+    width: 392px;
+    /* float: left;
+  width: 33.33%;
+  padding: 5px; */
+}
+.items{
+    width: 100%;
+    padding: 5px;
+}
+#new-lists{
+    /* display: flex; */
+    /* float: right; */
+    /* margin: 20px; */
+    width: 100%;
+    /* margin: 20px; */
+    /* content: "";
+    clear: both;
+    display: table; */
+}
+.newlist{
+    float: left;
+    /* padding: 10px; */
+    background-color: rgb(24, 24, 24);
+    display: block;
+    color: white;
+    width: 22%;
+    margin: 10px;
+    box-shadow: 2px 2px 20px black;
+    border-radius: 10px;
+}
+.heading{
+    font-size: 20px;
+    padding: 10px;
+    /* margin: 10px; */
+}
+.remove-item{
+    cursor: pointer;
+    font-size: 15px;
+    margin-left: 25px;
+    float: right;
+}
+.box{
+    background-color: gray;
+    border: 2px solid black;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 15px;
+}
+.width{
+    width: 100%;
+}
